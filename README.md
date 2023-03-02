@@ -1,4 +1,4 @@
-# Prestashop-en-tres-niveles
+# Wordpress-en-tres-niveles
 # Índice
 # 1. Creacion del fichero Vagrantfile
 # 2. Creacion de los scripts de aprovisionamiento
@@ -58,12 +58,12 @@ A continuacion le damos todos los permisos en la base de datos creada al usuario
 
 ## 4. Configuración de la maquina NFS
 
-### 4.1 Descargar el wget y el prestashop.
-Descargamos si no lo tenemos el wget y con eso descargamos el prestashop
+### 4.1 Descargar el wget y el wordpress.
+Descargamos si no lo tenemos el wget y con eso descargamos el wordpress
 
 ![](imagenes/descaraga_prestashop.png)
 
-### 4.2 Descomprimir el archivo de prestashop
+### 4.2 Descomprimir el archivo de wordpress
 Descargamos el unzip si no lo tenemos y descomprimimos el archivo descargado anteriormente
 
 ![](imagenes/unzip.png)
@@ -74,8 +74,8 @@ Creamos una carpeta en la ruta /var/www que sera la que compartamos con las maqu
 
 ![](imagenes/carpetanfs.png)
 
-### 4.4 Copiar el prestashop en la nueva carpeta creada
-Copiamos el contenido de la carpeta prestashop a la carpeta nfs creada anteriormente
+### 4.4 Copiar el wordpress en la nueva carpeta creada
+Copiamos el contenido de la carpeta wordpress a la carpeta nfs creada anteriormente
 
 ![](imagenes/copiaprestashop.png)
 
